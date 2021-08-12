@@ -185,4 +185,8 @@ button span {
     .menu-img{
         display: none;
     }
+    #btn {
+        margin-left: 50%;
+        
+    }
 }
