@@ -31,6 +31,16 @@ nav .menu-img {
 nav .logo{
     width: 160px;
     cursor: pointer;
+    font-size:xx-large;
+    font-weight: bold;
+}
+
+.white {
+    color: white
+}
+
+.green {
+    color: green;
 }
 
 nav ul{
@@ -58,6 +68,11 @@ button{
     outline: 0;
     cursor: pointer;
     transition: background 0.5s;
+}
+
+#btn {
+    margin: auto;
+    margin-top: 10px;
 }
 
 button span {
@@ -97,6 +112,8 @@ button span {
     margin-top: 7%;
     margin-left: 50%;
 }
+
+
 
 .text-container h1{
     font-size: 40px;
@@ -155,4 +172,17 @@ button span {
     background: #99a9cc;
     color: rgb(0, 0, 0);
 
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        height: 100%;
+    }
+    .text-container h1{
+        font-size: 28px;
+        font-weight: 400;
+    }
+    .menu-img{
+        display: none;
+    }
 }
