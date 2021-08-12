@@ -179,14 +179,17 @@ button span {
         height: 100%;
     }
     .text-container h1{
+        margin-top: 600px;
         font-size: 28px;
         font-weight: 400;
     }
     .menu-img{
         display: none;
     }
+    .lamp-container {
+        top: -60px;
+    }
     #btn {
-        margin-left: 50%;
-        
+        margin-left: auto;
     }
 }
